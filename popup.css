@@ -1,0 +1,148 @@
+    html {
+        border-style: solid;
+        border-color: var(--yellow);
+        border-width: 10px;
+        height: -webkit-fill-available;
+        background-color: var(--purple1);
+    }
+
+    body {
+        margin: 20px;
+        width: 300px;
+        height: 225px;
+    }
+
+    h1 {
+        font-family: 'Hepta Slab', serif;
+        font-weight: bold;
+        font-size: 1.5em;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        text-align: center;
+        color: var(--blue2);
+    }
+
+    h2 {
+        font-family: 'Hepta Slab', serif;
+        font-weight: bold;
+        font-size: 1.2em;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: var(--blue2);
+        text-align: center;
+    }
+
+    h3 {
+        font-family: 'Hepta Slab', serif;
+        font-weight: bold;
+        font-size: 1.1em;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: var(--yellow);
+        text-align: center;
+    }
+
+    p {
+        font-family: 'Noto Sans Japanese', sans-serif;
+        font-weight: semibold;
+        font-size: 1.08em;
+        letter-spacing: 0.05em;
+        text-align: center;
+        color: var(--blue2);
+    }
+
+    ul {
+        font-family: 'Noto Sans Japanese', sans-serif;
+        list-style-type: none;
+        text-align: center;
+        padding-left: 0;
+        font-size: 1em;
+    }
+
+    li {
+        margin-bottom: 1em;
+    }
+
+    .separator {
+        border-bottom: 2px solid var(--blue2);
+        margin-bottom: 10px;
+    }
+
+    button {
+        background-color: var(--purple1);
+        border: 2px solid var(--yellow);
+        border-radius: 5px;
+        text-align: center;
+        padding: 10px;
+        transition: 0.9s;
+        margin-top: 25px;
+        width: 80%;
+        display: flex;
+    }
+
+    button:hover {
+        background-color: var(--purple2);
+    }
+
+    a {
+        font-family: 'Notos Sans Japanese', sans-serif;
+        font-weight: medium;
+        text-align: center;
+        font-size: 0.8em;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        color: var(--yellow);
+        text-decoration: none;
+    }
+
+    .moreInfo {
+        display: flex;
+        justify-content: center;
+    }
+
+    /* Colors */
+
+    :root {
+        --purple1: #B8ADD5;
+        --purple2: #796FB1;
+        --blue1: #5658A3;
+        --blue2: #3A3B77;
+        --yellow: #F2D95C;
+    }
+
+    /* Dark Mode colors */
+
+    @media (prefers-color-scheme: dark) {
+        html {
+            border-color: var(--yellow);
+            background-color: var(--blue2);
+        }
+
+        h1 {
+            color: var(--purple1);
+        }
+
+        h2 {
+            color: var(--purple2);
+        }
+
+        h3 {
+            color: var(--purple1);
+        }
+
+        p {
+            color: var(--yellow);
+        }
+
+        ul {
+            color: white;
+        }
+
+        .separator {
+            border-bottom: 2px solid var(--purple2);
+        }
+
+        button {
+            background-color: var(--blue2);
+        }
+    }

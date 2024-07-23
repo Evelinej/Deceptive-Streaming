@@ -1,0 +1,34 @@
+{
+    "sitesToCheck": [
+    {
+        "url": "https://www.youtube.com",
+        "autoplayDataLocation": "sessionStorage",
+        "autoplayKey": "yt-player-autonavstate",
+        "autoplayActive": "2",
+        "autoplayDisabled": "1",
+        "htmlAutoplayClass": "ytp-autonav-toggle-button"
+    },
+    {
+        "url": "https://vimeo.com",
+        "autoplayDataLocation": "localStorage",
+        "autoplayKey": "continuous_play_v3",
+        "autoplayActive": "\"1\"",
+        "autoplayDisabled": "\"0\""
+    },
+    {
+        "url": "https://www.nicovideo.jp",
+        "autoplayDataLocation": "localStorage",
+        "autoplayKey": "Player.isContinuous",
+        "autoplayActive": "true",
+        "autoplayDisabled": "false"
+    },
+    {
+        "url": "https://www.twitch.tv",
+        "autoplayDataLocation": "none"
+    },
+    {
+        "url": "https://www.dailymotion.com",
+        "autoplayDataLocation": "none"
+    }
+]
+}
